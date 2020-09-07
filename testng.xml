@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MukuruTestSuite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="za.co.mukuru.SimpleTest"/>
+      <class name="za.co.mukuru.RegistrationTest"/>
+      <class name="za.co.mukuru.MenuTest"/>
+      <class name="za.co.mukuru.SearchTest"/>
+      <class name="za.co.mukuru.ContactUsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
